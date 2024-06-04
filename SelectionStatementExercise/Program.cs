@@ -8,7 +8,7 @@
             // Exercise 1
 
             var r = new Random();
-            var favNumber = r.Next(1, 1000);
+            int favNumber = r.Next(1, 1000);
 
             Console.WriteLine("Please pick a number between 1 - 1000");
 
@@ -17,13 +17,13 @@
             if (userInput < favNumber)
 
             {
-                Console.WriteLine($"{favNumber} too low!");
+                Console.WriteLine("too low!");
             }
 
             else if (userInput > favNumber)
 
             {
-                Console.WriteLine($"{favNumber} too high");
+                Console.WriteLine("too high");
             }
 
             else
